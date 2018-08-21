@@ -1,0 +1,13 @@
++Space::
+blockinput, on
+MouseGetPos, X, Y
+Send ^{Click, 362, 956}
+MouseMove, X, Y
+blockinput, off
+return
+
+/*
+
+This can be useful for deselecting monks or building farms more efficiently.
+
+*/
