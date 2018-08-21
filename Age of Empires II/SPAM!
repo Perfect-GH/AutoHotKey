@@ -1,0 +1,15 @@
+; SPAM
+
+^+\::
+Loop, 100
+Send 14  {Enter}
+Return
+
+; SPAM 2
+
+^+0::
+Loop, 100
+Send 35  {Enter}
+Return
+
+^Numpad0::ExitApp
