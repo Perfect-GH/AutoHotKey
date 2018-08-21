@@ -1,0 +1,20 @@
+; This is obviously not finished. 
+
+; Pickup 8 Items (main)
+; Pickup 8 Items (backpack)
+
+; Drop 8 Items (main)
+
+{
+MouseClickDrag, L, 635, 400, 420, 420, 8
+MouseClickDrag, L, 678, 400, 420, 420, 8
+MouseClickDrag, L, 723, 400, 420, 420, 8
+MouseClickDrag, L, 769, 400, 420, 420, 8
+MouseClickDrag, L, 633, 442, 420, 420, 7
+MouseClickDrag, L, 678, 442, 420, 420
+MouseClickDrag, L, 721, 442, 420, 420
+MouseClickDrag, L, 769, 442, 420, 420
+}
+Return
+
+; Drop 8 Items (backpack)
