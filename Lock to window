@@ -1,0 +1,5 @@
+#SingleInstance Force
+#IfWinActive, Adobe Flash Player 30
+LockMouseToWindow ("Adobe Flash Player 30") 
+WinSet, AlwaysOnTop
+Return
