@@ -6,6 +6,13 @@
 clipboard = /teleport %tptarget%
 goto Label_01
 
+; Submit clipboard
+Label_01:
+Blockinput, on
+Send {enter}^v{enter}
+Blockinput, off
+Return
+
 /*
   Instructions
     Step 1. Press CTRL+t
