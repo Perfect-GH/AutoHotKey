@@ -1,0 +1,15 @@
+; Identify a target.
+^t::InputBox, tptarget, Teleport target, Please enter a person to teleport to:
+
+; Teleport to target
++Space::
+clipboard = /teleport %tptarget%
+goto Label_01
+
+/*
+  Instructions
+    Step 1. Press CTRL+t
+    Step 2. Type name of target.
+    Step 3. Select enter.
+    Step 4. Press Shift+Spacebar
+*/
