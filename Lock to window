@@ -3,3 +3,10 @@
 LockMouseToWindow ("Adobe Flash Player 30") 
 WinSet, AlwaysOnTop
 Return
+
+; Describe KeyDelay
+SetKeyDelay 0
+; Describe SetMouseDelay
+SetMouseDelay 0
+; Describe SetTitleMatchMode
+SetTitleMatchMode 2
