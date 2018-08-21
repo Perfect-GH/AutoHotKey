@@ -1,0 +1,11 @@
+Numpad0::
+clipboard := "/pause"
+goto Label_01
+Return
+
+; Submit clipboard
+Label_01:
+Blockinput, on
+Send {enter}^v{enter}
+Blockinput, off
+Return
