@@ -1,0 +1,25 @@
+; Ignore last private message
+F1::
+clipboard := "/ignore "
+Blockinput, on
+Send {tab}{home}^+{Right}^v{enter}
+Blockinput, off
+Return
+
+; Unignore last private message
+^F1::
+clipboard := "/unignore "
+Blockinput, on
+Send {tab}{home}^+{Right}^v{enter}
+Blockinput, off
+Return
+
+; Ignore last chat message (This is using flash projector window values)
+NumpadSub::
+blockinput, on
+MouseGetPos, X, Y
+Click, 42, 638, right
+Click, 93, 575
+MouseMove, X, Y
+blockinput, off
+return
